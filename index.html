@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Alke Wallet</title>
+</head>
+<body>
+    
+
+    <script>
+        const logueado = localStorage.getItem("usuario_logueado");
+
+        if (logueado){
+            window.location.href = "menu.html";
+        } else{
+            window.location.href = "login.html"
+        }
+    </script>
+</body>
+</html>

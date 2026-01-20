@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar dinero | Alke Wallet</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="menu.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="top-menu">
+        <div class="container">
+            <div class="row">
+                 <div class="col-12">
+
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-2">
+                        <p class="brand mb-0">Alke Wallet</p>
+                    <img src="assets/img/images.jpeg" class="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center mb-5">Enviar Dinero</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="monto-enviar" class="form-label">Monto</label>
+                            <input type="number" id="monto-enviar" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destinatario" class="form-label">Destinatario</label>
+                            <select name="destinatario" id="destinatario" class="form-select">
+                                <option >Seleccione contacto</option>
+                                <option>Trinidad Astete</option>
+                                <option >Roberto Carlos</option>
+                                <option >Alexander Arnold</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn w-100 mt-4" id="btn-enviardinero1">Enviar Dinero</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+header, .top-menu{
+    Background-color: rgb(110, 10, 110);
+    text-align : center;
+    padding: 5px;
+}
+    header{
+        position:relative;
+
+    }
+    header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(248, 135, 248);
+    border-radius: 0px 0 10px 0;
+}
+
+.btn-ingresar1{
+border-radius: 10px 0 10px 0;
+padding: 10px; 
+margin-left: 120px;
+color: white;
+background-color: rgb(110, 10, 110);
+box-shadow: 2px 2px 4px rgb(73, 66, 66)
+}
+header nav {
+  display: flex;
+  justify-content: center; /* centra el ul */
+}
+
+.top-menu .container .row div .avatar{
+    width: 60px;
+    border-radius: 50%;
+    margin-right:50px; 
+}
+
+.iconos-menu {
+  display: flex;
+  justify-content: center; /* centra los iconos */
+  align-items: center;
+  gap: 0px;               /* espacio entre íconos */
+  list-style: none;        /* quita los puntos */
+  margin:0px;
+}
+
+.card{
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: transform .5s;
+}
+a{
+    text-decoration: none;
+}
+#btn-salir{
+    margin-bottom: 30px;
+    color: white;
+    background-color:rgb(110, 10, 110);
+    box-shadow: 2px 2px 4px rgb(73, 66, 66)
+}
+#btn-depositar{
+    margin-bottom: 30px;
+    color: white;
+    background-color:rgb(110, 10, 110);
+    box-shadow: 2px 2px 4px rgb(73, 66, 66)
+}
+#btn-enviardinero1{
+    margin-bottom: 30px;
+    color: white;
+    background-color:rgb(110, 10, 110);
+    box-shadow: 2px 2px 4px rgb(73, 66, 66)       
+}
+
+h1{
+    padding-top: 10%;
+    margin-bottom: 15%; 
+    text-shadow: 2px 2px 4px rgb(73, 66, 66)
+}
+
